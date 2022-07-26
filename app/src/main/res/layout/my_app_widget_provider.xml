@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Widget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Widget.AppWidgetContainer"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now you see this"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <TextClock
+        android:id="@+id/text_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format24Hour="hh:mm:ss"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>
